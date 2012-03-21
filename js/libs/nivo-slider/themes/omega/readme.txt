@@ -1,0 +1,1 @@
+Note: Images used in the slider for the Omega Theme need to have the same size settings as the slider settings in the admin panel

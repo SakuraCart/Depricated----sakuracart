@@ -1,0 +1,111 @@
+html {
+	overflow: -moz-scrollbars-vertical;
+	height:100%;
+	min-height:100%
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 105%;
+	margin: 0px;
+	padding: 0px;
+	overflow:auto;
+}
+
+/* ------------------------------------------------- html5 ------------------------------------------------- */
+header, nav, article, aside, footer, hgroup, section { display: block }
+
+/*
+	height: 40px;
+	margin-top: 10px;
+margin-bottom: 10px;
+*/
+
+header {
+	margin-top: 10px;
+	z-index: 99;
+}
+
+footer {
+	z-index: 99;
+	margin-bottom: 10px;
+}
+
+nav {
+}
+
+section {
+}
+
+
+figure {
+}
+
+details {
+}
+
+
+/* ------------------------------------------------- major ------------------------------------------------- */
+.short_container {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+#content {
+	min-height: 100px;
+	margin: 10px 0px 25px 0px;
+	padding: 5px;
+	overflow: auto;
+	line-height: 1.5em;
+}
+
+/* ------------------------------------------------- position ------------------------------------------------- */
+.left {
+	float: left;
+	text-align: left;
+	margin-left: 5px;
+	margin-right: auto;
+}
+.right {
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+	margin-left: auto;
+}
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content_left {
+	position: relative;
+	display:block;
+	float: left;
+	margin: 0 auto;
+	margin-left: 5px;
+	width: 49%;
+}
+
+.content_right {
+	position: relative;
+	display:block;
+	float: right;
+	margin: 0 auto;
+	margin-right: 5px;
+	width: 49%;
+}
+
+.align_bottom {
+	margin: 85px auto 0px auto !important;
+	text-align: right;
+}
+
+.half_right {
+	position: relative;
+	margin-right: 5px;
+	margin-left: auto;
+	width: 49%;
+}

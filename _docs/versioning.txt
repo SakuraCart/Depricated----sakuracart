@@ -1,0 +1,11 @@
+Version 1.0.0
+* base architecture: opencart
+* upgrade templates to html5, css3, 1140grid
+* lots of little changes have happened to the opencart code but in general most opencart extensions
+  should port with a few minor edits
+* still in progress but: a deletion of closing ?> tag and UTF-8 encoding with Unix (LF) line feeds
+* place holder for jquery additions
+  [jquery that still needs to be recognized will be added here]
+
+
+EOF

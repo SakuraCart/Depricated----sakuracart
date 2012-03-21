@@ -1,0 +1,77 @@
+.jcarousel-skin-cart .jcarousel-container {
+	background: #FFF;
+	margin-bottom: 0px;
+}
+.jcarousel-skin-cart .jcarousel-direction-rtl {
+	direction: rtl;
+}
+.jcarousel-skin-cart .jcarousel-container-horizontal {
+	padding: 0px 30px;
+}
+.jcarousel-skin-cart .jcarousel-clip {
+	overflow: hidden;
+}
+.jcarousel-skin-cart .jcarousel-clip-horizontal {
+}
+.jcarousel-skin-cart .jcarousel-item {
+	text-align: center;
+}
+.jcarousel-skin-cart .jcarousel-item-horizontal {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.jcarousel-skin-cart .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+	margin-right: 0;
+}
+.jcarousel-skin-cart .jcarousel-item-placeholder {
+	background: #fff;
+	color: #000;
+}
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-cart .jcarousel-next-horizontal {
+	position: absolute;
+	top: 23px;
+	right: 5px;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	background: url('../image/button-next.png') center no-repeat;
+}
+.jcarousel-skin-cart .jcarousel-direction-rtl .jcarousel-next-horizontal {
+	left: 5px;
+	right: auto;
+	background: url('../image/button-previous.png') center no-repeat;
+}
+.jcarousel-skin-cart .jcarousel-next-horizontal:hover, .jcarousel-skin-cart .jcarousel-next-horizontal:focus {
+}
+.jcarousel-skin-cart .jcarousel-next-horizontal:active {
+}
+.jcarousel-skin-cart .jcarousel-next-disabled-horizontal, .jcarousel-skin-cart .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin-cart .jcarousel-next-disabled-horizontal:focus, .jcarousel-skin-cart .jcarousel-next-disabled-horizontal:active {
+	cursor: default;
+	background: none;
+}
+.jcarousel-skin-cart .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 23px;
+	left: 0px;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	background: url('../image/button-previous.png') center no-repeat;
+}
+.jcarousel-skin-cart .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+	left: auto;
+	right: 0px;
+	background: url('../image/button-next.png') center no-repeat;
+}
+.jcarousel-skin-cart .jcarousel-prev-horizontal:hover, .jcarousel-skin-cart .jcarousel-prev-horizontal:focus {
+}
+.jcarousel-skin-cart .jcarousel-prev-horizontal:active {
+}
+.jcarousel-skin-cart .jcarousel-prev-disabled-horizontal, .jcarousel-skin-cart .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-cart .jcarousel-prev-disabled-horizontal:focus, .jcarousel-skin-cart .jcarousel-prev-disabled-horizontal:active {
+	cursor: default;
+	background: none;
+}

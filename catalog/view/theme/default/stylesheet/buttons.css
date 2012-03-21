@@ -1,0 +1,100 @@
+/* ------------------------------------------------- buttons ------------------------------------------------- */
+/* button
+
+a.button {
+	display: inline-block;
+	padding-left: 6px;
+	background: url('../image/button-left.png') top left no-repeat;
+	text-decoration: none;
+	cursor: pointer;
+}
+a.button span {
+	color: #FFFFFF;
+	line-height: 12px;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 6px 12px 8px 5px;
+	background: url('../image/button-right.png') top right no-repeat;
+}
+a.button:hover {
+	background: url('../image/button-left-active.png') top left no-repeat;
+}
+a.button:hover span {
+	color: #FFFFFF;
+	background: url('../image/button-right-active.png') top right no-repeat;
+}
+*/
+
+.button_container {
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+	overflow: auto;
+/* CSS3 */
+	behavior: url(../js/libs/PIE/PIE.htc);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+.button {
+	behavior: url(../js/libs/PIE/PIE.htc);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-weight:bold;
+	text-decoration:none;
+	display: inline-block;
+}
+
+a.button {
+	margin-right:5px;
+	padding: 10px 15px;
+	color:#fff;
+}
+
+a.button:link {
+	text-decoration:none;
+}
+
+a.button:visited {
+	text-decoration: none;
+}
+a.button:hover {
+	text-decoration: none;
+	color:#fff;
+/* shadow */
+	box-shadow: 1px 1px 0 #fff;
+	-webkit-box-shadow: 1px 1px 0 #fff;
+	-moz-box-shadow: 1px 1px 0 #fff;
+	text-shadow: -1px -1px 0 rgba(0,0,0,.25);
+}
+a.button:active {
+	text-decoration: none;
+	color: red;
+	position: relative;
+	top: 3px;
+/* shadow */
+	box-shadow: 1px 1px 0 #fff;
+	-webkit-box-shadow: 1px 1px 0 #fff;
+	-moz-box-shadow: 1px 1px 0 #fff;
+	text-shadow: -1px -1px 0 rgba(0,0,0,.25);
+}
+
+/* ------------------------------------------------- colors ------------------------------------------------- */
+.button_green {
+	background: #6BB345;
+	border: 1px solid #8AD142;
+}
+
+.button_red {
+	background: #c20f2e;
+	border: 1px solid #f3afb5;
+}
+
+.button_blue {
+	background: #2C81B4;
+	border: 1px solid #5EACDA;
+}

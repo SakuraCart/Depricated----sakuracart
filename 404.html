@@ -1,0 +1,107 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+ Remove this if you use the .htaccess -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript; charset=UTF-8" />
+
+<title>404</title>
+
+<base href="<?php echo $base; ?>" />
+
+<link rel="stylesheet" type="text/css" href="admin/view/stylesheet/boiler.css" />
+<link rel="stylesheet" type="text/css" href="admin/view/stylesheet/1140.css" />
+<link rel="stylesheet" type="text/css" href="admin/view/stylesheet/admin.css" />
+<link rel="stylesheet" type="text/css" href="admin/view/stylesheet/table.css" />
+<link rel="stylesheet" type="text/css" href="admin/view/stylesheet/buttons.css" />
+
+<script type="text/javascript" src="js/mylibs/blob.js"></script>
+<script type="text/javascript">
+function log(msg) {
+	var textArea;
+	textArea = document.getElementById("logArea");
+	textArea.value = msg + "\n" + textArea.value;
+}
+
+function clearLog() {
+	var textArea;
+	textArea = document.getElementById("logArea");
+	textArea.value = "";
+}
+
+</script>
+
+
+<style type="text/css">
+canvas {
+	border: 1px solid #CCCCCC;
+}
+h1 {
+	font-size: 22px;
+}
+h2 {
+	font-size: 18px;
+}
+</style>
+
+</head>
+
+<body onload="init();">
+
+<div class="container row">
+	<div class="col12 last">
+		<div id="content">
+			<h1 class="box_content rounded_corners_all border_blue">
+				404 -- oops! since you're here, have fun with the blob!
+			</h1>
+		</div>
+	</div>
+</div>
+<div class="container row">
+	<div class="col7">
+		<canvas id="blob" width="600" height="400"></canvas>
+	</div>
+	<div class="col5 last">
+		<div class="box-category">
+			<br>
+			<br>
+			<br>
+			<ul>
+				<li><a href="javascript:stop()">pause simulation</a></li>
+				<li><a href="javascript:start()">resume simulation</a></li>
+				<li>Move around Blob with arrow keys or mouse.</li>
+				<li>Split blob with h.</li>
+				<li>Join blobs with j.</li>
+				<li>Turn gravity on / off with g.</li>
+			</ul>
+			<br>
+			<br>
+			<br>
+			Written by: bjoern.lindberg at gmail.com
+		</div>
+	</div>
+</div>
+
+<footer id="">
+	<div class="container row">
+		<div class="col12 last">
+		<div id="content">
+			<h2 class="box_content rounded_corners_all border_blue">
+				<a onclick="window.open('http://www.sakuracart.com');">sakuracart.com</a>
+			</h2>
+		</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>

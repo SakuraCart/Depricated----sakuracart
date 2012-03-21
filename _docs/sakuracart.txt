@@ -1,0 +1,28 @@
+What is sakura cart?
+
+Sakura cart is actually something that goes back to 2003. Well, the idea actually, the code is much more modern.
+
+The idea:
+The idea comes from an internal project called "blue sky" which was supposed to bring a taste of fresh air to the
+ecommerce world. At that time, oscommerce held a large portion of mindshare and a few of us just didn't agree with
+progression and a few other things. A new project was born, zencart, however, events caused a few of us to branch out
+on their own who know are just or possibly more famous than those at zencart. In my case, I decided to focus on family.
+
+A few years have passed since then, while looking for a cart to base a project on, I came across opencart (well, actually,
+I had known about the original youthful version) http://www.opencart.com ! I have to say I was impressed with what they were
+doing and decided to give opencart a full chance. Result: I fell in love!
+
+The code:
+sakuracart is currently about 95% opencart code. I did go redo every single template and added a few things of my own. But sakuracart
+is still essentially opencart, for the moment!
+
+Why fork and not help opencart?
+Ah! I love opencart's code -- I can't praise it more than basing this cart on, however, let me just say, it was a personal choice.
+Much like yours to use sakuracart, opencart or even zencart (we all have "cart" in our names!)
+
+Future!
+Let's just say, we will be moving from 95% opencart code to something different, please follow the roadmap on the main site.
+
+For any support issues please visit: http://www.sakuracart.com ONLY!
+
+EOF

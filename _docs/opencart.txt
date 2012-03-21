@@ -1,0 +1,11 @@
+sakuracart is forked from opencart 1.5.2 and svn 776 or so.
+
+Thank you opencart! Without you we wouldn't be here today!
+
+
+
+
+
+For any support issues please visit: http://www.sakuracart.com
+
+EOF

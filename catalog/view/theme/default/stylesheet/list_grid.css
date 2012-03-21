@@ -1,0 +1,200 @@
+/* ------------------------------------------------- filter ------------------------------------------------- */
+.grid_left {
+	position: relative;
+	display:block;
+	float: left;
+	margin: 0px 5px auto 5px;
+	width: 78%;
+}
+
+.grid_right {
+	position: relative;
+	display:block;
+	float: right;
+	margin: 0px 0px auto 5px;
+	width: 18%;
+}
+
+/* ------------------------------------------------- filter ------------------------------------------------- */
+.compare_total {
+	padding: 5px;
+	margin: 0px 10px 10px 0px;
+	font-weight: bold;
+	border-bottom: 1px solid #5EACDA;
+	text-align: right;
+	margin-left: auto;
+}
+
+.filter {
+	border: 1px solid #8AD142;
+	margin: 10px 0px 30px 0px;
+	padding: 10px;
+	overflow: auto;
+/* CSS3 */
+	behavior: url(../js/libs/PIE/PIE.htc);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+.filter .display {
+	margin-right: 15px;
+	float: left;
+	padding-top: 4px;
+	color: #333;
+}
+.filter .display a {
+	font-weight: bold;
+}
+.filter .sort {
+	float: right;
+	color: #333;
+}
+.filter .limit {
+	margin-left: 15px;
+	float: right;
+	color: #333;
+}
+
+/* ------------------------------------------------- list ------------------------------------------------- */
+
+.list > div {
+	overflow: auto;
+	margin-bottom: 15px;
+}
+.list .right {
+	display: block;
+	position: relative;
+	vertical-align: top !important;
+	float: right;
+	margin-left: 15px;
+}
+.list > div + div {
+	border-top: 1px solid #EEEEEE;
+	padding-top: 16px;
+}
+.list .image {
+	float: left;
+	margin-right: 10px;
+}
+.list .image img {
+	padding: 3px;
+	border: 1px solid #E7E7E7;
+}
+.list .name {
+	margin-bottom: 3px;
+}
+.list .name a {
+	color: #38B0E3;
+	font-weight: bold;
+	text-decoration: none;
+}
+.list .description {
+	line-height: 15px;
+	margin-bottom: 5px;
+	color: #4D4D4D;
+}
+.list .rating {
+	color: #7B7B7B;
+}
+.list .price {
+	float: right;
+	height: 50px;
+	margin-left: 8px;
+	text-align: right;
+	color: #333333;
+	font-size: 12px;
+}
+.list .price-old {
+	color: #F00;
+	text-decoration: line-through;
+}
+.list .price-new {
+	font-weight: bold;
+}
+.list .price-tax {
+	font-size: 12px;
+	font-weight: normal;
+	color: #BBBBBB;
+}
+.list .cart {
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+.list .wishlist, .list .compare {
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+.list .wishlist a {
+	font-size: 12px;
+}
+.list .compare a {
+	font-size: 12px;
+}
+
+/* ------------------------------------------------- grid ------------------------------------------------- */
+
+.grid {
+	width: 100%;
+	overflow: auto;
+}
+.grid > div {
+	width: 134px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+.grid .image {
+	display: block;
+	margin-bottom: 0px;
+}
+.grid .image img {
+	padding: 3px;
+	border: 1px solid #E7E7E7;
+}
+.grid .name a {
+	color: #38B0E3;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 4px;
+}
+.grid .description {
+	display: none;
+}
+.grid .rating {
+	display: block;
+	margin-bottom: 4px;
+}
+.grid .price {
+	display: block;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 4px;
+}
+.grid .price-old {
+	color: #F00;
+	text-decoration: line-through;
+}
+.grid .price-new {
+	font-weight: bold;
+}
+.grid .price .price-tax {
+	display: none;
+}
+.grid .cart {
+	font-size: 10px;
+	margin-bottom: 3px;
+}
+.grid .compare a {
+	font-size: 10px;
+}
+.grid .wishlist, .grid .compare {
+	font-size: 10px;
+	margin-bottom: 3px;
+}
+.grid .wishlist a {
+	font-size: 10px;
+}

@@ -1,0 +1,1002 @@
+/* ------------------------------------------------- debug ------------------------------------------------- */
+/*
+div {
+border: 1px solid #000;
+margin: 2px;
+padding: 2px; }
+	div > div {
+	border-color: #333; }
+		div > div > div {
+		border-color: #666; }
+			div > div > div > div {
+			border-color: #999; }
+				div > div > div > div > div {
+				border-color: #CCC; }
+					div > div > div > div > div > div {
+					border-color: #e1e1e1; }
+						div > div > div > div > div > div > div {
+						border-color: #eaeaea; }
+*/
+/* ------------------------------------------------- html ------------------------------------------------- */
+.error, .alert, .notice, .success, .info, .warning, .attention, .information {
+	padding:10px;
+	margin-bottom: 20px;
+	border:2px solid #ddd;
+	cursor: pointer;
+}
+.error, .alert, .warning {
+/* red */
+	background:#fbe3e4;
+	color:#8a1f11;
+	border-color:#FF0000;
+}
+.notice, .attention {
+/* yellow */
+	background:#fff6bf;
+	color:#514721;
+	border-color:#ffd324;
+}
+.success {
+/* green */
+	margin: 10px 0px 10px 0px;
+	background:#e6efc2;
+	color:#264409;
+	border-color:#c6d880;
+}
+.info, .information {
+/* blue */
+	background:#d5edf8;
+	color:#205791;
+	border-color:#92cae4;
+}
+
+.error .close, .alert .close, .notice .close, .success .close, .info .close, .warning .close, .attention .close, .information .close {
+	float: right;
+	padding-top: 4px;
+	padding-right: 4px;
+	cursor: pointer;
+}
+
+
+/* ------------------------------------------------- general styling ------------------------------------------------- */
+.required {
+	color: #FF0000;
+	font-weight: bold;
+}
+span.strike {text-decoration:line-through;color:red}
+dt {
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul > li {
+	padding: 8px 8px 8px 0px;
+}
+	list-style: none;
+	margin: 10px;
+	padding: 10px;
+}
+
+#content h3, .content_right h3, .content_left h3 {
+	margin: 10px 0px 10px 0px;
+	font-weight: bold;
+	border-bottom: 1px solid #5EACDA;
+}
+
+h1, h2, h3, h4.underline {
+	border-bottom: 1px solid #EEEEEE;
+	margin-bottom: 10px;
+}
+/* ------------------------------------------------- coloring ------------------------------------------------- */
+.border_blue {
+	border: 1px solid #5EACDA;
+}
+
+.border_green {
+	border: 1px solid #8AD142;
+}
+
+.border_white {
+	border: 1px #fff solid;
+}
+
+.container_grey {
+	background: #eee;
+}
+/* ------------------------------------------------- links ------------------------------------------------- */
+a, a:visited, a b {
+	color: #38B0E3;
+	text-decoration: underline;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+}
+a img {
+	border: none;
+}
+
+.color9 {
+	background: #999999;
+}
+
+.colorff0 {
+	background: #ff0000;
+}
+
+.links {
+	font-size: 10px;
+	padding-right: 10px;
+}
+.links a {
+	float: left;
+	display: block;
+	padding: 0px 0px 0px 7px;
+	color: #38B0E3;
+	text-decoration: none;
+	font-size: 12px;
+}
+.links a + a {
+	margin-left: 8px;
+	border-left: 1px solid #CCC;
+}
+
+.breadcrumb {
+	color: #CCCCCC;
+	padding: 5px 10px;
+}
+
+/* ------------------------------------------------- buttons ------------------------------------------------- */
+/* moved to button CSS */
+
+/* ------------------------------------------------- tabs ------------------------------------------------- */
+.htabs {
+	margin: 10px 0px 0px 0px;
+	height: 30px;
+	line-height: 16px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.htabs a {
+	border-top: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	padding: 7px 15px 6px 15px;
+	float: left;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	margin-right: 5px;
+	display: none;
+}
+.htabs a.selected {
+	padding-bottom: 7px;
+	background: #FFFFFF;
+}
+.tab-content {
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 10px;
+	margin-bottom: 20px;
+	z-index: 2;
+	overflow: auto;
+}
+
+/* ------------------------------------------------- logo ------------------------------------------------- */
+#header #logo {
+}
+
+/* ------------------------------------------------- language ------------------------------------------------- */
+#language {
+margin-right: 20px;
+}
+/*
+#language {
+	color: #999;
+	line-height: 17px;
+}
+#language img {
+	cursor: pointer;
+}
+*/
+/* ------------------------------------------------- currency ------------------------------------------------- */
+#currency a {
+	text-decoration: none;
+	line-height: 20px;
+	margin-right: 5px;
+}
+#currency a:active {
+	text-decoration: none;
+}
+#currency {
+margin-right: 20px;
+}
+
+/*
+#currency {
+	color: #999;
+	line-height: 17px;
+	width: 250px;
+}
+#currency a {
+	display: inline-block;
+	padding: 2px 4px;
+	border: 1px solid #CCC;
+	color: #999;
+	text-decoration: none;
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+#currency a b {
+	color: #000;
+	text-decoration: none;
+}
+*/
+/* ------------------------------------------------- search ------------------------------------------------- */
+#search {
+margin-right:0px;
+}
+
+/*
+#header #search {
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	width: 255px;
+padding-right: 20px;
+float: right;
+	z-index: 15;
+}
+#header .button-search {
+	position: absolute;
+	left: 0px;
+	background: url('../image/button-search.png') center center no-repeat;
+	width: 28px;
+	height: 24px;
+	border-right: 1px solid #CCCCCC;
+	cursor: pointer;
+}
+#header #search input {
+	background: #FFF;
+	padding: 1px 1px 1px 33px;
+	width: 220px;
+	height: 21px;
+	border: 1px solid #CCCCCC;
+}
+*/
+/* ------------------------------------------------- cart ------------------------------------------------- */
+#header #cart {
+	position: absolute;
+	top: 0px;
+	z-index: 999;
+	min-width: 240px;
+}
+#header #cart .heading {
+	float: right;
+	margin-right: 172px;
+	margin-top: 15px;
+	padding-left: 14px;
+	padding-right: 14px;
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #EEEEEE;
+	background: #FFF;
+	position: relative;
+	z-index: 1;
+}
+#header #cart .heading h4 {
+	color: #333333;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+#header #cart .heading a {
+	color: #38B0E3;
+	text-decoration: none;
+}
+#header #cart .heading a span {
+	background: #FFFFFF url('../image/arrow-down.png') 100% 50% no-repeat;
+	padding-right: 15px;
+}
+#header #cart .content {
+	clear: both;
+	display: none;
+	position: relative;
+	top: -1px;
+	padding: 8px;
+	min-height: 150px;
+	border-top: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+	border-right: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	-webkit-border-radius: 0px 7px 7px 7px;
+	-moz-border-radius: 0px 7px 7px 7px;
+	-khtml-border-radius: 0px 7px 7px 7px;
+	border-radius: 0px 7px 7px 7px;
+	-webkit-box-shadow: 0px 2px 2px #DDDDDD;
+	-moz-box-shadow: 0px 2px 2px #DDDDDD;
+	box-shadow: 0px 2px 2px #DDDDDD;
+	background: #FFF;
+}
+
+#header #cart.active .heading {
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 6px;
+	border-top: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+	border-right: 1px solid #EEEEEE;
+	-webkit-border-radius: 7px 7px 0px 0px;
+	-moz-border-radius: 7px 7px 0px 0px;
+	-khtml-border-radius: 7px 7px 0px 0px;
+	border-radius: 7px 7px 0px 0px;
+}
+#header #cart.active .content {
+	display: block;
+}
+#header #cart .cart {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 5px;
+}
+#header #cart .cart td {
+	color: #000;
+	vertical-align: top;
+	padding: 10px 5px;
+	border-bottom: 1px solid #EEEEEE;
+}
+#header #cart .cart .image {
+	width: 1px;
+}
+#header #cart .cart .image img {
+	border: 1px solid #EEEEEE;
+	text-align: left;
+}
+#header #cart .cart .name small {
+	color: #666;
+}
+#header #cart .cart .quantity {
+	text-align: right;
+}
+#header #cart .cart td.total {
+	text-align: right;
+}
+#header #cart .cart .remove {
+	text-align: right;
+}
+#header #cart .cart .remove img {
+	cursor: pointer;
+}
+#header #cart table.total {
+	border-collapse: collapse;
+	padding: 5px;
+	float: right;
+	clear: left;
+	margin-bottom: 5px;
+}
+#header #cart table.total td {
+	color: #000;
+}
+#header #cart .content .checkout {
+	text-align: right;
+	clear: both;
+}
+#header #cart .empty {
+	padding-top: 50px;
+	text-align: center;
+}
+
+/* ------------------------------------------------- megamenu-product categories ------------------------------------------------- */
+#megamenu {
+	background: #585858;
+	border-bottom: 1px solid #000000;
+	height: 37px;
+	margin-bottom: 15px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0px 2px 2px #DDDDDD;
+	-moz-box-shadow: 0px 2px 2px #DDDDDD;
+	box-shadow: 0px 2px 2px #DDDDDD;
+	padding: 0px 5px;
+}
+#megamenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#megamenu > ul > li {
+	position: relative;
+	float: left;
+	z-index: 20;
+}
+#megamenu > ul > li:hover {
+	background: #000;
+}
+#megamenu > ul > li > a {
+	font-size: 13px;
+	color: #FFF;
+	line-height: 14px;
+	text-decoration: none;
+	display: block;
+	padding: 12px 15px 11px 15px;
+	z-index: 6;
+	position: relative;
+}
+#megamenu > ul > li > div {
+	display: none;
+	background: #FFFFFF;
+	position: absolute;
+	z-index: 5;
+	padding: 5px;
+	border: 1px solid #000000;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-khtml-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	background: url('../image/menu.png');
+}
+#megamenu > ul > li:hover > div {
+	display: table;
+}
+#megamenu > ul > li > div > ul {
+	display: table-cell;
+}
+#megamenu > ul > li ul + ul {
+	padding-left: 20px;
+}
+#megamenu > ul > li ul > li > a {
+	text-decoration: none;
+	padding: 4px;
+	color: #FFFFFF;
+	display: block;
+	white-space: nowrap;
+	min-width: 120px;
+}
+#megamenu > ul > li ul > li > a:hover {
+	background: #000000;
+}
+#megamenu > ul > li > div > ul > li > a {
+	color: #FFFFFF;
+}
+
+/* ------------------------------------------------- megamenu-forum ------------------------------------------------- */
+#forum_menu {
+	background: #585858;
+	border-bottom: 1px solid #000000;
+	height: 37px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0px 2px 2px #DDDDDD;
+	-moz-box-shadow: 0px 2px 2px #DDDDDD;
+	box-shadow: 0px 2px 2px #DDDDDD;
+	padding: 0px 0px;
+}
+#forum_menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#forum_menu > ul > li {
+	position: relative;
+	float: left;
+	z-index: 20;
+}
+#forum_menu > ul > li:hover {
+	background: #000;
+}
+#forum_menu > ul > li > a {
+	font-size: 13px;
+	color: #FFF;
+	line-height: 14px;
+	text-decoration: none;
+	display: block;
+	padding: 12px 15px 11px 15px;
+	z-index: 6;
+	position: relative;
+}
+#forum_menu > ul > li > div {
+	display: none;
+	background: #FFFFFF;
+	position: absolute;
+	z-index: 5;
+	padding: 5px;
+	border: 1px solid #000000;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-khtml-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	background: url('../image/menu.png');
+}
+#forum_menu > ul > li:hover > div {
+	display: table;
+}
+#forum_menu > ul > li > div > ul {
+	display: table-cell;
+}
+#forum_menu > ul > li ul + ul {
+	padding-left: 20px;
+}
+#forum_menu > ul > li ul > li > a {
+	text-decoration: none;
+	padding: 4px;
+	color: #FFFFFF;
+	display: block;
+	white-space: nowrap;
+	min-width: 120px;
+}
+#forum_menu > ul > li ul > li > a:hover {
+	background: #000000;
+}
+#forum_menu > ul > li > div > ul > li > a {
+	color: #FFFFFF;
+}
+
+/* ------------------------------------------------- pages ------------------------------------------------- */
+.sitemap-info {
+	overflow: auto;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.sitemap-info .left {
+	float: left;
+	width: 48%;
+}
+.sitemap-info .right {
+	float: left;
+	width: 48%;
+}
+
+/* ------------------------------------------------- pagination ------------------------------------------------- */
+/*
+.pagination_container {
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+/ CSS3 /
+	behavior: url(../js/libs/PIE/PIE.htc);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	overflow: auto;
+}
+*/
+.pagination {
+	border-top: 1px solid #EEEEEE;
+	padding-top: 8px;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.pagination .links {
+	float: left;
+}
+.pagination .links a {
+	display: inline-block;
+	border: 1px solid #EEEEEE;
+	padding: 4px 10px;
+	text-decoration: none;
+	color: #A3A3A3;
+}
+.pagination .links b {
+	display: inline-block;
+	border: 1px solid #269BC6;
+	padding: 4px 10px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #269BC6;
+	background: #FFFFFF;
+}
+.pagination .results {
+	float: right;
+	padding-top: 3px;
+}
+
+/* ------------------------------------------------- price ------------------------------------------------- */
+ul#inline {
+	list-style-position:inside;
+	list-style-type:none;
+	overflow: auto;
+	margin:0 auto;
+	clear: both;
+	padding:10px 0px 10px 10px;
+}
+li#inline {
+	display: inline;
+	float: left;
+	margin:0px 10px 0px 0px;
+}
+
+.prices {
+	list-style: none;
+	margin: 10px 0px 10px 0px;
+	padding: 5px 5px 10px 5px;
+}
+.prices li {
+	clear: both;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 20px 0px;
+	position: relative;
+	border-bottom: dotted 2px #999;
+}
+.prices strong {
+	background: #fff;
+	padding: 0px 10px 0px 0px;
+	font-weight: normal;
+	position: absolute;
+	bottom: -.3em;
+	left: 0;
+}
+.prices em {
+	background: #fff;
+	padding: 0px 0px 0px 5px;
+	position: absolute;
+	bottom: -.2em;
+	right: 0;
+}
+.prices sup {
+	font-size: 60%;
+	color: #666;
+	margin-left: 3px;
+}
+.price-old {
+	color: #F00;
+	text-decoration: line-through;
+}
+.price-new {
+	font-weight: bold;
+}
+/* ------------------------------------------------- cart ------------------------------------------------- */
+.cart-module .cart-heading {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+
+	border: 1px solid #DBDEE1;
+	padding: 8px 8px 8px 22px;
+	margin: 15px 0px 0px 0px;
+	cursor: pointer;
+	background: #F8F8F8 url('../image/arrow-right.png') 10px 50% no-repeat;
+}
+.cart-module .active {
+	background: #F8F8F8 url('../image/arrow-down.png') 7px 50% no-repeat;
+}
+.cart-module .cart-content {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-khtml-border-bottom-right-radius: 5px;
+	-khtml-border-bottom-left-radius: 5px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+
+	border: 1px solid #DBDEE1;
+	background: #F8F8F8;
+	margin: -3px 0px 15px 0px;
+	padding: 0px 20px 15px 20px;
+	display: none;
+	overflow: auto;
+}
+.cart-total {
+	border-top: 1px solid #DDDDDD;
+	overflow: auto;
+	padding-top: 8px;
+	margin: 15px 0px 15px 0px;
+}
+.cart-total table {
+	float: right;
+}
+.cart-total td {
+	padding: 3px;
+	text-align: right;
+}
+
+/* ------------------------------------------------- checkout ------------------------------------------------- */
+.checkout-heading {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+
+	background: #F8F8F8;
+	border: 1px solid #DBDEE1;
+	padding: 8px 8px 8px 22px;
+	margin: 15px 0px 0px 0px;
+	cursor: pointer;
+}
+/*
+.checkout-heading {
+	background: #F8F8F8;
+	border: 1px solid #DBDEE1;
+	padding: 8px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #555555;
+	margin-bottom: 15px;
+}
+*/
+.checkout-heading a {
+	float: right;
+	margin-top: 1px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.checkout-content {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-khtml-border-bottom-right-radius: 5px;
+	-khtml-border-bottom-left-radius: 5px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+
+	border: 1px solid #DBDEE1;
+	background: #F8F8F8;
+	margin: -3px 0px 15px 0px;
+	padding: 15px 20px 15px 20px;
+	display: none;
+	overflow: auto;
+}
+/* ------------------------------------------------- boxes ------------------------------------------------- */
+.box {
+	background: #fff;
+	color:#444;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+	margin-bottom: 20px;
+	border: 1px solid #DBDEE1;
+	padding:5px 5px 5px 5px;
+/*
+	margin: 0  0 30px 30px;
+	padding: 20px;
+	box-shadow: 0 0 10px #629996;
+	-moz-box-shadow: 0 0 10px #629996;
+	-webkit-box-shadow: 0 0 10px #629996;
+*/
+}
+
+.box_plain {
+	margin: 5px 0px 5px 0px;
+	padding: 5px;
+}
+
+/* ------------------------------------------------- box lists ------------------------------------------------- */
+.box_plain ul {
+	list-style: none;
+	margin: 0px 0px 20px 0px;
+	padding: 0;
+}
+.box_plain > ul > li {
+	padding: 0px 0px 5px 5px;
+}
+.box_plain > ul > li + li {
+/*
+	border-top: 1px solid #EEEEEE;
+*/
+}
+.box_plain > ul > li > a {
+/*
+	text-decoration: none;
+*/
+	color: #333;
+}
+.box_plain > ul > li ul {
+	display: none;
+}
+.box_plain > ul > li a.active {
+	font-weight: bold;
+}
+.box_plain > ul > li a.active + ul {
+	display: block;
+}
+.box_plain > ul > li ul > li {
+	padding: 5px 5px 0px 10px;
+}
+.box_plain > ul > li ul > li > a {
+	text-decoration: none;
+	display: block;
+}
+.box_plain > ul > li ul > li > a.active {
+	font-weight: bold;
+}
+
+.box_header {
+	height: 20px;
+	overflow: hidden;
+	padding:5px 5px 5px 5px;
+	background: #2C81B4; /* for non-css3 browsers */
+	color:#fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+.box_header h2 {
+	margin: 0px 0px 0px -10px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 5px 10px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+
+.box_content_left {
+	border: 1px solid #DBDEE1;
+	margin: 0px 0px 20px 0px;
+	padding:5px 5px 10px 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: #fff;
+	color:#444;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+.box_content_left h2 {
+	background: #9800C3; /* for non-css3 browsers */
+	border: 1px solid #BC38E1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#BC38E1), to(#9800C3)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #BC38E1,  #9800C3); /* for firefox 3.6+ */
+	margin: 0px 0px 0px 0px;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 20px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+
+.box_content_right {
+	border: 1px solid #DBDEE1;
+	margin: 0px 0px 20px 0px;
+	padding:5px 5px 10px 5px;
+	background: #fff;
+	color:#444;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+.box_content_right h2 {
+	background: #2C81B4; /* for non-css3 browsers */
+	border: 1px solid #5EACDA;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5EACDA), to(#2C81B4)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #5EACDA,  #2C81B4); /* for firefox 3.6+ */
+	margin: 0px 0px 0px 0px;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 20px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+
+.box_content_center {
+	border: 1px solid #DBDEE1;
+	margin: 0px 0px 20px 0px;
+	padding:5px 5px 10px 5px;
+	background: #fff;
+	color:#444;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+.box_content_center h2 {
+	background: #68BC45; /* for non-css3 browsers */
+	border: 1px solid #94DE74;
+	background: -webkit-gradient(linear, left top, left bottom, from(#94DE74), to(#68BC45)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #94DE74,  #68BC45); /* for firefox 3.6+ */
+	margin: 0px 0px 0px 0px;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 20px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+
+.box_content_footer {
+	border: 1px solid #DBDEE1;
+	margin: 0px 0px 20px 0px;
+	padding:5px 5px 10px 5px;
+	background: #fff;
+	color:#444;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+.box_content_footer h2 {
+	background: #2C81B4; /* for non-css3 browsers */
+	border: 1px solid #FAA1C9;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FAA1C9), to(#F481B5)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #FAA1C9,  #F481B5); /* for firefox 3.6+ */
+	margin: 0px 0px 0px 0px;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 20px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+
+.box_content {
+	border: 1px solid #DBDEE1;
+	margin: 10px 0px 20px 0px;
+	padding:5px 5px 10px 5px;
+	background: #fff;
+	color:#444;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+.box_content h2 {
+	background: #000000; /* for non-css3 browsers */
+	border: 1px solid #808080;
+	background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#808080)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #000000,  #808080); /* for firefox 3.6+ */
+	margin: 0px 0px 0px 0px;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 20px;
+	behavior: url(../js/libs/PIE/PIE.htc);
+}
+
+/* box category */
+.box-category {
+	margin: 0px 0px 0px 5px;
+}
+.box-category ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.box-category > ul > li {
+	padding: 8px 8px 8px 0px;
+}
+.box-category > ul > li + li {
+	border-top: 1px solid #EEEEEE;
+}
+.box-category > ul > li > a {
+	text-decoration: none;
+	color: #333;
+}
+.box-category > ul > li ul {
+	display: none;
+}
+.box-category > ul > li a.active {
+	font-weight: bold;
+}
+.box-category > ul > li a.active + ul {
+	display: block;
+}
+.box-category > ul > li ul > li {
+	padding: 5px 5px 0px 10px;
+}
+.box-category > ul > li ul > li > a {
+	text-decoration: none;
+	display: block;
+}
+.box-category > ul > li ul > li > a.active {
+	font-weight: bold;
+}

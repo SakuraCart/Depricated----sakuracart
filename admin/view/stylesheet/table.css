@@ -1,0 +1,74 @@
+table {
+	width:100%;
+	margin: 20px auto;
+}
+
+table caption {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	background: #fff;
+	text-align:left;
+}
+
+th, td {
+	vertical-align: baseline;
+	text-align:left;
+	padding:5px 5px 5px 10px;
+}
+
+th {
+	background:#e8eaeb;
+	border: 1px solid #DBDEE1;
+}
+
+td {
+	border: 1px solid #DBDEE1;
+	text-align:center;
+}
+
+tr {
+	background:#fff;
+	border: 1px solid #DBDEE1;
+}
+
+tfoot th {
+	background: #b0cc7f;
+	text-align: left;
+}
+
+td.checkbox {
+	background: #b0cc7f;
+}
+
+th.textright, td.textright {
+	text-align:right;
+}
+th.textleft, td.textleft {
+	text-align:left;
+}
+th.textcenter, td.textcenter {
+	text-align:center;
+	vertical-align: middle;
+}
+th.texttop, td.texttop {
+	vertical-align: top;
+}
+
+tbody tr:nth-child(odd) {
+	background-color:#fff;
+}
+
+tbody tr:nth-child(even) {
+	background-color:#EFEFEF;
+}
+tbody th:nth-child(odd) {
+	background-color:#fff;
+}
+
+tbody th:nth-child(even) {
+	background-color:#EFEFEF;
+}
+
+tbody tr:hover {
+	background-color:#99ccff;
+}
